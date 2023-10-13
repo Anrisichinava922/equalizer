@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=IBM+Plex+Sans:wght@400;700&family=Oldenburg&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.img1{
+    margin: 40px 200px 64px 24px;
+}
+.textbox1{
+    display: flex;
+    flex-direction: column;
+    text-align-last: left;
+    padding-left: 24px;
+    padding-bottom: 170px;
+}
+h1{
+    margin-bottom: 20px;
+    width: 327px;
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.455px;
+}
+h2{
+    width: 327px;
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 375px;
+    height: 600px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #191826;
+    background-image: url(./assets/mobileback1.svg) , url(./assets/mobileback2.svg) , url(./assets/mobileback3.svg) , url(./assets/mobileback4.svg);
+    background-position: 80% 20% , 20% 0% , 20% 32% , 20% 60%;
+    background-repeat: no-repeat;    
+}
+.iphone{
+    margin-top: -100%;
+}
+.orangebox{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 375px;
+    height: 546px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FA7453;
+    margin-top: -60%;
+}
+h3{
+    margin: 48px 36px 12px 36px;
+    width: 302px;
+    color: #FCFAF9;
+    font-family: 'IBM Plex Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+}
+h4{
+    margin: 0 36px 36px 36px;
+    width: 302px;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+h5{
+    margin: 0 168px 32px 42px;
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+}
+span{
+    color: #FCFAF9;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+}
+.button1{
+    margin-bottom: 16px;
+    border: none;
+    width: 296px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #191826;
+    color: #FCFAF9;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.18px;
+}
+.button2{
+    border: none;
+    width: 296px;
+    height: 61px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #FCFAF9;
+    color: #191826;
+    text-align: center;
+    font-family: IBM Plex Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+}
+.button1:hover{
+    background-color: red;
+}
+.button2:hover{
+    background-color: red;
+}
+.textbox2{
+    display: flex;
+    width: 327px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 32.008px;
+    margin: 64px 24px;
+}
+h6{
+    color: #191826;
+    font-family: 'IBM Plex Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+p{
+    width: 327px;
+    color: #191826;
+    font-family: IBM Plex Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+}
+.socialmedialogo{
+    margin: 0px 251px 80px 24px;
+}
